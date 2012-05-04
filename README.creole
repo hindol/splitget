@@ -1,0 +1,13 @@
+=== Description ===
+A multi-part file downloader for Ubuntu / Linux distros supporting Bash v4 (almost all Linux flavours).
+
+=== Prerequisites ===
+Perl URI library (Please install liburi from repository.)
+
+=== Installation ===
+Place the script in one of the locations specified in $PATH. Easiest way is to place it in $HOME/bin directory.
+
+=== Usage ===
+$ splitget.sh -i <URL to download> [-o <output filename> -s <approx size of the file> -l <max size of each part in bytes>]
+
+For example, {{{splitget.sh -i http://www.example.com/example.iso -o testing.iso -l 150000000 -s 700000000}}}. Typically size input is not required as it will detect filesize automatically.
