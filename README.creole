@@ -10,4 +10,8 @@ Place the script in one of the locations specified in $PATH. Easiest way is to p
 === Usage ===
 $ splitget.sh -i <URL to download> [-o <output filename> -s <approx size of the file> -l <max size of each part in bytes>]
 
-For example, {{{splitget.sh -i http://www.example.com/example.iso -o testing.iso -l 150000000 -s 700000000}}}. Typically size input is not required as it will detect filesize automatically.
+For example,
+{{{
+$ splitget.sh -i http://www.example.com/example.iso -o testing.iso -l 150000000 -s 700000000
+}}}
+Typically size input is not required as it will detect filesize automatically.
