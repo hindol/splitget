@@ -2,8 +2,8 @@
 A multi-part file downloader for Ubuntu / Linux distros supporting Bash v4 (almost all Linux flavours).
 
 === Prerequisites ===
-cURL            	(Comes pre-installed with Ubuntu.)			
-Perl URI library	(Please install liburi from repository.)
+# cURL            	(Comes pre-installed with Ubuntu.)
+# Perl URI library	(Please install liburi from repository.)
 
 === Installation ===
 Place splitget.sh in one of the locations specified in $PATH. Easiest way is to place it in $HOME/bin directory.
